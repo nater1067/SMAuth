@@ -39,9 +39,9 @@ class DefaultController extends Controller
         );
     }
 
-    public function dumpStringAction()
+    public function secureAction()
     {
-        return $this->render('SimpleProfileBundle:Security:dumpString.html.twig', array());
+        return $this->render('SMUserBundle:Default:secure.html.twig', array());
     }
 
 }

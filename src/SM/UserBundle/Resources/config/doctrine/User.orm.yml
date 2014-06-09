@@ -15,6 +15,9 @@ SM\UserBundle\Entity\User:
         password:
             type: string
             length: '64'
+        salt:
+            type: string
+            length: 32
         email:
             type: string
             length: '60'

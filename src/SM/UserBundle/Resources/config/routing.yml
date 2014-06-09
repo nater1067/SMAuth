@@ -11,4 +11,7 @@ login_check:
 
 test_security:
     pattern: /secure_area
-    defaults: {_controller: SimpleProfileBundle:Security:dumpString }
+    defaults: {_controller: SMUserBundle:Default:secure }
+
+logout:
+    path: /logout
