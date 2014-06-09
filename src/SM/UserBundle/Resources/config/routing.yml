@@ -1,0 +1,14 @@
+index:
+    pattern: /
+    defaults: { _controller: SMUserBundle:Default:index }
+
+login:
+    pattern:  /login
+    defaults: { _controller: SMUserBundle:Default:login }
+
+login_check:
+    pattern:   /login_check
+
+test_security:
+    pattern: /secure_area
+    defaults: {_controller: SimpleProfileBundle:Security:dumpString }

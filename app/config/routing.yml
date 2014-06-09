@@ -1,0 +1,4 @@
+sm_user:
+    resource: "@SMUserBundle/Resources/config/routing.yml"
+    prefix:   /
+

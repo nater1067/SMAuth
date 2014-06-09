@@ -1,0 +1,7 @@
+parameters:
+#    sm_user.example.class: SM\UserBundle\Example
+
+services:
+#    sm_user.example:
+#        class: %sm_user.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
